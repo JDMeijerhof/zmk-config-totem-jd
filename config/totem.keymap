@@ -80,7 +80,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &none       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &kp TAB     &kp BSPC    &lt NUM RET     &lt NAV ESC &lt SPACE   &kp DEL
+                                &mt LCTRL TAB     &mt LSHFT BSPC    &lt NUM RET     &lt NAV ESC &lt SPACE   &mt LALT DEL
                         >;
                 };
 

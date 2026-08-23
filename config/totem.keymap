@@ -74,7 +74,7 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     Z     ┃     X     ┃     C     ┃     D     ┃     V     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     /     ┃     \     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
+//                                     ┃    TAB    ┃    BSPC   ┃    ENTER  ┃   ┃   ESC     ┃   SPACE   ┃    DEL    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -82,7 +82,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &none       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &kp DEL   &lt NAV TAB   &kp SPACE       &kp RET   &lt SYM ESC   &kp BSPC
+                                        &kp TAB   &lt NAV BSPC   &kp RET       &kp ESC   &lt SYM SPACE   &kp DEL
                         >;
                 };
 

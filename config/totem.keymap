@@ -92,16 +92,16 @@ label= "NUM"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     *     ┃     4     ┃     5     ┃     6     ┃     +     ┃   ┃     #     ┃   RPAR    ┃   LPAR    ┃     ;     ┃     '     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃     0     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ┃     $     ┃   RBKT    ┃   LBKT    ┃     `     ┃     "     ┃           ┃
+// ┃     =     ┃     0     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ┃     $     ┃   RBKT    ┃   LBKT    ┃     `     ┃     "     ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃    TAB    ┃    BSPC   ┃    NUM    ┃   ┃    COMP   ┃   SPACE   ┃    DEL    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp KP_DIVIDE     &kp KP_N7     &kp KP_N8       &kp KP_N9   &kp KP_MINUS        &kp AT_SIGN     &kp RBRC        &kp LBRC   &kp COLON    &trans
-                &kp KP_MULTIPLY   &kp KP_N4     &kp KP_N5       &kp KP_N6   &kp KP_PLUS         &kp HASH        &kp RPAR        &kp LPAR   &kp SEMI     &kp SINGLE_QUOTE
-    &trans      &kp KP_N0         &kp KP_N1     &kp KP_N2       &kp KP_N3   &kp KP_DOT          &kp DOLLAR      &kp RBKT        &kp LBKT   &kp GRAVE    &kp DOUBLE_QUOTES       &trans      
+                &kp FSLH   &kp N7     &kp N8       &kp N9   &kp MINUS        &kp AT_SIGN     &kp RBRC        &kp LBRC   &kp COLON    &trans
+                &kp STAR   &kp N4     &kp N5       &kp N6   &kp PLUS         &kp HASH        &kp RPAR        &kp LPAR   &kp SEMI     &kp SINGLE_QUOTE
+    &kp EQUAL   &kp N0     &kp N1     &kp N2       &kp N3   &kp DOT          &kp DOLLAR      &kp RBKT        &kp LBKT   &kp GRAVE    &kp DOUBLE_QUOTES       &trans      
                                                 &trans          &trans      &trans              &mo COMP        &trans          &trans      
                         >;
                 };

@@ -68,7 +68,7 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃     Z     ┃     X     ┃     C     ┃     D     ┃     V     ┃   ┃     K     ┃     H     ┃     ,     ┃     .     ┃     /     ┃     \     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    TAB    ┃    BSPC   ┃    ENTER  ┃   ┃   ESC     ┃   SPACE   ┃    DEL    ┃
+//                                     ┃    TAB    ┃    BSPC   ┃    ENTER  ┃   ┃   SPACE   ┃    DEL    ┃    ESC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -76,7 +76,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &none       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                &mt LCTRL TAB     &mt LSHFT BSPC    &lt NUM RET     &lt NAV ESC &kp SPACE   &mt LALT DEL
+                                &kp TAB     &kp BSPC    &lt NUM RET     &lt NAV SPACE &kp DEL   &kp ESC
                         >;
                 };
 
@@ -90,18 +90,18 @@ label= "NUM"                              ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     /     ┃     7     ┃     8     ┃     9     ┃     -     ┃   ┃     @     ┃   RBRC    ┃   LBRC    ┃     :     ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     *     ┃     4     ┃     5     ┃     6     ┃     +     ┃   ┃     #     ┃   RPAR    ┃   LPAR    ┃     ;     ┃     '     ┃
+//             ┃     0     ┃     4     ┃     5     ┃     6     ┃     +     ┃   ┃     #     ┃   RPAR    ┃   LPAR    ┃     ;     ┃     '     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃     =     ┃     0     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ┃     $     ┃   RBKT    ┃   LBKT    ┃     `     ┃     "     ┃           ┃
+// ┃     =     ┃     *     ┃     1     ┃     2     ┃     3     ┃     .     ┃   ┃     $     ┃   RBKT    ┃   LBKT    ┃     `     ┃     "     ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    TAB    ┃    BSPC   ┃    NUM    ┃   ┃    COMP   ┃   SPACE   ┃    DEL    ┃
+//                                     ┃    TAB    ┃    BSPC   ┃    NUM    ┃   ┃    COMP   ┃    DEL    ┃    ESC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp FSLH   &kp N7     &kp N8       &kp N9   &kp MINUS        &kp AT_SIGN     &kp RBRC        &kp LBRC   &kp COLON    &trans
-                &kp STAR   &kp N4     &kp N5       &kp N6   &kp PLUS         &kp HASH        &kp RPAR        &kp LPAR   &kp SEMI     &kp SINGLE_QUOTE
-    &kp EQUAL   &kp N0     &kp N1     &kp N2       &kp N3   &kp DOT          &kp DOLLAR      &kp RBKT        &kp LBKT   &kp GRAVE    &kp DOUBLE_QUOTES       &trans      
+                &kp N0     &kp N4     &kp N5       &kp N6   &kp PLUS         &kp HASH        &kp RPAR        &kp LPAR   &kp SEMI     &kp SINGLE_QUOTE
+    &kp EQUAL   &kp STAR   &kp N1     &kp N2       &kp N3   &kp DOT          &kp DOLLAR      &kp RBKT        &kp LBKT   &kp GRAVE    &kp DOUBLE_QUOTES       &trans      
                                                 &trans          &trans      &trans              &mo COMP        &trans          &trans      
                         >;
                 };
@@ -120,7 +120,7 @@ label= "NAV"                               ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃     <     ┃     >     ┃     ~     ┃     &     ┃   ┃   PGDN    ┃   PREV    ┃   DOWN    ┃   NEXT    ┃    CAPS   ┃   PSCRN   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    TAB    ┃    BSPC   ┃    COMP   ┃   ┃    NAV    ┃   SPACE   ┃    DEL    ┃
+//                                     ┃    TAB    ┃    BSPC   ┃    NUM    ┃   ┃    NAV    ┃    DEL    ┃    ESC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
